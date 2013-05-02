@@ -20,6 +20,8 @@
 		DE5B16FF16FB8F5A008D134B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5B16FD16FB8F5A008D134B /* ViewController.xib */; };
 		DE5B170C16FBA4A8008D134B /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B170B16FBA4A8008D134B /* BaseTableViewController.m */; };
 		DE5B170E16FCAC64008D134B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DE5B170D16FCAC64008D134B /* README.md */; };
+		DECB1FA51732AAAD0050C8F4 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB1FA31732AAAD0050C8F4 /* ScrollViewController.m */; };
+		DECB1FA61732AAAD0050C8F4 /* ScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DECB1FA41732AAAD0050C8F4 /* ScrollViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		DE5B170A16FBA4A8008D134B /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		DE5B170B16FBA4A8008D134B /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		DE5B170D16FCAC64008D134B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DECB1FA21732AAAD0050C8F4 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		DECB1FA31732AAAD0050C8F4 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		DECB1FA41732AAAD0050C8F4 /* ScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,9 @@
 				DE5B16FB16FB8F5A008D134B /* ViewController.m */,
 				DE5B16FD16FB8F5A008D134B /* ViewController.xib */,
 				DE5B16E916FB8F5A008D134B /* Supporting Files */,
+				DECB1FA21732AAAD0050C8F4 /* ScrollViewController.h */,
+				DECB1FA31732AAAD0050C8F4 /* ScrollViewController.m */,
+				DECB1FA41732AAAD0050C8F4 /* ScrollViewController.xib */,
 			);
 			path = ScrollWatcher;
 			sourceTree = "<group>";
@@ -180,6 +188,7 @@
 				DE5B16F916FB8F5A008D134B /* Default-568h@2x.png in Resources */,
 				DE5B16FF16FB8F5A008D134B /* ViewController.xib in Resources */,
 				DE5B170E16FCAC64008D134B /* README.md in Resources */,
+				DECB1FA61732AAAD0050C8F4 /* ScrollViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +203,7 @@
 				DE5B16F316FB8F5A008D134B /* AppDelegate.m in Sources */,
 				DE5B16FC16FB8F5A008D134B /* ViewController.m in Sources */,
 				DE5B170C16FBA4A8008D134B /* BaseTableViewController.m in Sources */,
+				DECB1FA51732AAAD0050C8F4 /* ScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

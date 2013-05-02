@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "ScrollViewController.h"
 
 @implementation AppDelegate
 
@@ -16,7 +17,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+#if 0
 	self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+#else
+	self.viewController = [[ScrollViewController alloc] initWithNibName:@"ScrollViewController" bundle:nil];
+#endif
 	self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
