@@ -11,6 +11,8 @@ The current code uses a block that simply bumps a counter and sends updates to a
 
 At this time, the simple table and counter do not cause the tableView to stutter if the block is NOT moved to the background queue. I plan to update this project in the future to add a bunch of web fetchers to really load the program down, and that should make the value of this technique much more apparent (I did exactly this at my last job, to greatly improve responsiveness while running in huge numbers of web fetchers in the background.)
 
+UPDATE: added a second UIScrollView based UIViewController to verify interworking with horizontal scrolling.
+
 Copyright (c) 2013 David Hoerl
 
 License "Unattributed BSD"
